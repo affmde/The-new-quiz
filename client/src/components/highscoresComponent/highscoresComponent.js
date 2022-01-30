@@ -14,7 +14,7 @@ export const Highscores = () =>{
     
     useEffect(()=>{
         let cancel=false
-        Axios.get("http://localhost:3001/getTop5Highscores").then(resp=>{
+        Axios.get("/getTop5Highscores").then(resp=>{
             if(cancel)return;
             setHighScores(resp.data)
             console.log(resp.data)

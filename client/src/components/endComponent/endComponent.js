@@ -7,7 +7,7 @@ export const EndComponent = ({username, setUsername, score, setScore}) =>{
 
     const navigate = useNavigate();
     const saveScore = ()=>{
-        Axios.post("http://localhost:3001/createHighscore", {
+        Axios.post("/createHighscore", {
             username: username,
             score: score
         }).then(resp=> {
