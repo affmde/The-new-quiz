@@ -12,6 +12,9 @@
         "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
         "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\""
   },
+  "engines": {
+    "node": "14.17.5"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
