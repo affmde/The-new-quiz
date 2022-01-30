@@ -1,0 +1,72 @@
+.highscores-container{
+    background-color: rgba(0, 0, 139, 0.479);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.highscores-container h3{
+    font-size: 3rem;
+    cursor:context-menu;
+}
+
+
+.show-highscores{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    width: 75%;
+}
+
+.playerName{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgba(116, 151, 151, 0.774);
+}
+
+.playerName p{
+    width: 100%;
+    font-size: 1.3rem;
+}
+.playerName:hover{
+    background-color: rgba(0, 0, 139, 0.233);
+    cursor:context-menu;
+}
+#highscore-score{
+    width: 20%;
+}
+
+#highscore-position{
+    width: 10%;
+}
+
+#highscore-name{
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 60%;
+    overflow-x: scroll;
+}
+
+#highscore-home{
+    padding: 5px 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#highscore-home:hover{
+    background-color: rgba(255, 166, 0, 0.603);
+    transform: scale(1.1);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: all 0.2s linear;
+}

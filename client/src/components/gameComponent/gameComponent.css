@@ -1,0 +1,80 @@
+.game-container{
+    background-color: rgba(0, 0, 139, 0.479);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+#game-quiz{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.game-stats{
+    display: flex;
+    width: 90%;
+}
+
+.left, .right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.right > *{
+    margin-bottom: 1px;
+}
+
+#your-score{
+    font-size: 1.3rem;
+    margin-bottom: 1px;
+    margin-top: 3px;
+}
+
+#score-value{
+    font-size: 3rem;
+    margin-top: 1px;
+}
+
+.game-part{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 139, 0.274);
+    align-self: center;
+}
+
+.question{
+   font-size: 2rem;
+   margin-bottom: 10px;
+}
+
+.answers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.options{
+    background-color:darkcyan;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    font-size: 1.8rem;
+    margin-top: -30px;
+    cursor: pointer;
+    padding: 8px 10px;
+    height: 20%;
+}
+
+.options:hover{
+    transform: scale(1.005);
+    transition: all 0.15s ease-in-out;
+    border: 3px solid black;
+    background-color: blue;
+}
+

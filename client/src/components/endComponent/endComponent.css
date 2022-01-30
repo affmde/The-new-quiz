@@ -1,0 +1,67 @@
+.end-container{
+    background-color: rgba(0, 0, 139, 0.479);
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.end-info{
+    margin-top: 20px;
+    width: 50%;
+    font-size: 1.5rem;
+    height: 40%;
+    color: white;
+}
+
+#end-score{
+    font-size: 2rem;
+    font-weight: 300;
+}
+#end-value{
+    font-size: 2.3rem;
+font-weight: 700;
+}
+
+.end-btns{
+    width: 80%;
+    height: 40%;
+    cursor: pointer;
+}
+
+
+.end-input{
+    width: 100%;
+    border: 1px solid black;
+    margin: 0px;
+    height: 3rem;
+    background-color: rgba(0, 0, 139, 0.747);
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+.end-input:hover{
+    background-color: rgba(0, 139, 139, 0.712);
+    font-weight: bolder;
+    color: black;
+}
+
+#end-username{
+    background-color: #f3f3f3;
+    border: 1px solid white;
+    color: black;
+}
+
+#save-btn{
+   display: none;
+   background-color: rgba(0, 100, 0, 0.712)
+}
+
+#end-text{
+    font-size: 0.8rem;
+    text-align: left;
+}
+
