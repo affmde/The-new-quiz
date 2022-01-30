@@ -293,4 +293,52 @@ export const questionary =[
     choices: [{option:'Chamber of the Secrets', id: 1},{option:'Prizioner of Azkaban', id: 2},{option:'Philosofal Stone', id: 3},{option:'Goblet of Fire', id: 4}],
     answer: 1,
 },
+{
+    id:43,
+    question: 'What is Albus Dumbledore fenix name?',
+    choices: [{option:'Fluffy', id: 1},{option:'Folbi', id: 2},{option:'Fawkes', id: 3},{option:'Flybie', id: 4}],
+    answer: 3,
+},
+{
+    id:44,
+    question: 'Who worte the book "Ugly Love" ?',
+    choices: [{option:'Lauren Asher', id: 1},{option:'Taylor Jenkins Reid', id: 2},{option:'Elena Armas', id: 3},{option:'Colleen Hoover', id: 4}],
+    answer: 4,
+},
+{
+    id:45,
+    question: 'When was launched Tinder ?',
+    choices: [{option:'2011', id: 1},{option:'2012', id: 2},{option:'2013', id: 3},{option:'2014', id: 4}],
+    answer: 2,
+},
+{
+    id:46,
+    question: 'What was the annual revenue of Tinder in 2020 ?',
+    choices: [{option:'$1 billion', id: 1},{option:'$1.2 billion', id: 2},{option:'$1.4 billion', id: 3},{option:'$1.6 billion', id: 4}],
+    answer: 3,
+},
+{
+    id:47,
+    question: 'By end of January 2022 how many episodes the Catfish TV Show produced?',
+    choices: [{option:'150', id: 1},{option:'$163', id: 2},{option:'188', id: 3},{option:'220', id: 4}],
+    answer: 3,
+},
+{
+    id:48,
+    question: 'Who hosts the Catfish TV Show?',
+    choices: [{option:'Nev Schulman', id: 1},{option:'Channel West Coast', id: 2},{option:'Ellie Kemper', id: 3},{option:'Steve Irwin', id: 4}],
+    answer: 1,
+},
+{
+    id:49,
+    question: 'When was founded Netflix?',
+    choices: [{option:'1989', id: 1},{option:'1995', id: 2},{option:'1997', id: 3},{option:'2005', id: 4}],
+    answer: 3,
+},
+{
+    id:50,
+    question: 'When was founded Youtube?',
+    choices: [{option:'1995', id: 1},{option:'2000', id: 2},{option:'2005', id: 3},{option:'2010', id: 4}],
+    answer: 3,
+},
 ]
