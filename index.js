@@ -3,10 +3,17 @@ const app = express();
 const mongoose = require('mongoose');
 const HighscoresModel = require('./modules/highscores');
 const cors= require('cors');
+const path = require("path")
+require("dotenv").config()
 
 mongoose.connect("mongodb+srv://affmde:Andremiranda1@affm.795qg.mongodb.net/myquizz?retryWrites=true&w=majority")
 app.use(express.json());
 app.use(cors());
+app.use(express.static(path.join(__dirname, "client", "build")))
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 app.get("/getHighscores", (req, res)=>{
     HighscoresModel.find({}, (err, result)=>{
@@ -38,6 +45,8 @@ app.post("/createHighscore", async (req, res)=>{
     res.json(highscore)
 })
 
-app.listen(3001, ()=>{
+const port = process.env.PORT || 3001
+
+app.listen(port, ()=>{
     console.log("Server is running in port 3001 successfuly!")
 })
