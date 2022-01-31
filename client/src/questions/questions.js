@@ -9,7 +9,7 @@ export const questionary =[
 
 {   
     id:2,
-    question: 'Where was hosted the Euro 2004?',
+    question: 'Where was the football Euro Cup 2004 hosted ?',
     choices: [{option:'Greece', id: 1},{option:'Portugal', id: 2},{option:'Belgium', id: 3},{option:'England', id: 4}],
     answer: 2,
 },
@@ -58,7 +58,7 @@ export const questionary =[
 
 {
     id:9,
-    question: 'When was it open the London Underground?',
+    question: 'When was the London Underground opened?',
     choices: [{option:'1930', id: 1},{option:'1863', id: 2},{option:'1904', id: 3},{option:'1888', id: 4}],
     answer: 2,
 },
@@ -72,14 +72,14 @@ export const questionary =[
 
 {
     id:11,
-    question: 'In what year it started the Second World War?',
+    question: 'In what year did the Second World War start?',
     choices: [{option:'1940', id: 1},{option:'1941', id: 2},{option:'1939', id: 3},{option:'1945', id: 4}],
     answer: 3,
 },
 
 {
     id:12,
-    question: 'To what of this brands is Steve Jobs associated?',
+    question: 'To which of these brands is Steve Jobs associated?',
     choices: [{option:'Apple', id: 1},{option:'Microsoft', id: 2},{option:'MCDonalds', id: 3},{option:'Amazon', id: 4}],
     answer: 1,
 },
@@ -100,14 +100,14 @@ export const questionary =[
 
 {
     id:15,
-    question: 'From what city it comes The Beatles?',
+    question: 'From what city are The Beatles?',
     choices: [{option:'Manchester', id: 1},{option:'Londres', id: 2},{option:'Liverpool', id: 3},{option:'Birmingham', id: 4}],
     answer: 3,
 },
 
 {
     id:16,
-    question: 'In what year did Apollo 11 stepped the Moon?',
+    question: 'In what year did Apollo 11 step on the Moon?',
     choices: [{option:'1967', id: 1},{option:'1969', id: 2},{option:'1971', id: 3},{option:'1973', id: 4}],
     answer: 2,
 },
@@ -121,7 +121,7 @@ export const questionary =[
 
 {
     id:18,
-    question: 'In what year born Cristiano Ronaldo?',
+    question: 'In what year is Cristiano Ronaldo born?',
     choices: [{option:'1989', id: 1},{option:'1985', id: 2},{option:'1983', id: 3},{option:'1990', id: 4}],
     answer: 2,
 },
@@ -135,7 +135,7 @@ export const questionary =[
 
 {
     id: 20,
-    question: 'From what country is originally Nokia?',
+    question: 'From what country is Nokia originally?',
     choices: [{option:'Finland', id: 1},{option:'Sweden', id: 2},{option:'USA', id: 3},{option:'Japan', id: 4}],
     answer: 1,
 },
@@ -184,7 +184,7 @@ export const questionary =[
 
 {
     id:27,
-    question: 'In which city would you find the Statue of Liberty?',
+    question: 'In which city can you find the Statue of Liberty?',
     choices: [{option:'San Francisco', id: 1},{option:'Washington D.C.', id: 2},{option:'New York City', id: 3},{option:'Philadelphia', id: 4}],
     answer: 3,
 },
@@ -247,7 +247,7 @@ export const questionary =[
 
 {
     id: 36,
-    question: 'When was founded the city of Moscow in Russia?',
+    question: 'When was the city of Moscow in Russia founded?',
     choices: [{option:'1147', id: 1},{option:'1247', id: 2},{option:'1047', id: 3},{option:'1507', id: 4}],
     answer: 1,
 },
@@ -268,14 +268,14 @@ export const questionary =[
 
 {
     id:39,
-    question: 'Which team plays home games in Philips Stadion?',
+    question: 'Which football team plays home games in Philips Stadion?',
     choices: [{option:'Ajax', id: 1},{option:'PSG', id: 2},{option:'Rosenborg', id: 3},{option:'PSV', id: 4}],
     answer: 4,
 },
 
 {
     id:40,
-    question: 'Who won champions league 2020-2021?',
+    question: 'Who won football champions league 2020-2021?',
     choices: [{option:'Chelsea', id: 1},{option:'Tottenham', id: 2},{option:'Man City', id: 3},{option:'Real Madrid', id: 4}],
     answer: 1,
 },
@@ -307,7 +307,7 @@ export const questionary =[
 },
 {
     id:45,
-    question: 'When was launched Tinder ?',
+    question: 'When was Tinder launched?',
     choices: [{option:'2011', id: 1},{option:'2012', id: 2},{option:'2013', id: 3},{option:'2014', id: 4}],
     answer: 2,
 },
@@ -331,13 +331,13 @@ export const questionary =[
 },
 {
     id:49,
-    question: 'When was founded Netflix?',
+    question: 'When was Netflix founded?',
     choices: [{option:'1989', id: 1},{option:'1995', id: 2},{option:'1997', id: 3},{option:'2005', id: 4}],
     answer: 3,
 },
 {
     id:50,
-    question: 'When was founded Youtube?',
+    question: 'When was Youtube founded?',
     choices: [{option:'1995', id: 1},{option:'2000', id: 2},{option:'2005', id: 3},{option:'2010', id: 4}],
     answer: 3,
 },
@@ -355,19 +355,19 @@ export const questionary =[
 },
 {
     id:53,
-    question: 'From what band is the song "I write signs not tragedies"',
+    question: 'From which band is the song "I write signs not tragedies"',
     choices: [{option:'Panic! at the Disco', id: 1},{option:'My Chemical Romance', id: 2},{option:'Foo Fighters', id: 3},{option:'Paramore', id: 4}],
     answer: 1,
 },
 {
     id:54,
-    question: 'From what band is the hit "All the small things"?',
+    question: 'From which band is the hit "All the small things"?',
     choices: [{option:'Blink-182', id: 1},{option:'Offspring', id: 2},{option:'30 Seconds to Mars', id: 3},{option:'Rise Against the Machine', id: 4}],
     answer: 1,
 },
 {
     id:55,
-    question: 'When was released the single "Umbrella" by Rihanna',
+    question: 'When was the single "Umbrella" by Rihanna released?',
     choices: [{option:'2005', id: 1},{option:'2006', id: 2},{option:'2007', id: 3},{option:'2008', id: 4}],
     answer: 4,
 },
@@ -379,13 +379,13 @@ export const questionary =[
 },
 {
     id:57,
-    question: 'From what band is the single "Iris"?',
+    question: 'From which band is the single "Iris"?',
     choices: [{option:'Police', id: 1},{option:'Goo Goo Dolls', id: 2},{option:'Back Street Boys', id: 3},{option:'Panic! At the Disco', id: 4}],
     answer: 2,
 },
 {
     id:58,
-    question: 'From where is the band "Oasis" from?',
+    question: 'Where is the band "Oasis" from?',
     choices: [{option:'USA', id: 1},{option:'Canada', id: 2},{option:'England', id: 3},{option:'Australia', id: 4}],
     answer: 3,
 },
@@ -397,19 +397,19 @@ export const questionary =[
 },
 {
     id:60,
-    question: 'Where did Beyoncé born?',
+    question: 'Where was Beyoncé born?',
     choices: [{option:'New York', id: 1},{option:'Orlando', id: 2},{option:'Houston', id: 3},{option:'Miami', id: 4}],
     answer: 3,
 },
 {
     id:61,
-    question: 'Who did Pope John Paul II born?',
+    question: 'Where was Pope John Paul II born?',
     choices: [{option:'England', id: 1},{option:'USA', id: 2},{option:'Poland', id: 3},{option:'Germany', id: 4}],
     answer: 3,
 },
 {
     id:62,
-    question: 'In what hear was Swedish Prime Minister Olof Palme assassinated?',
+    question: 'In what year was Swedish Prime Minister Olof Palme assassinated?',
     choices: [{option:'1986', id: 1},{option:'1987', id: 2},{option:'1988', id: 3},{option:'1989', id: 4}],
     answer: 1,
 },
@@ -423,7 +423,7 @@ export const questionary =[
     id:64,
     question: 'What is the capital of Sweden?',
     choices: [{option:'Stockholm', id: 1},{option:'Gothemburg', id: 2},{option:'Malmö', id: 3},{option:'Uppsala', id: 4}],
-    answer: 4,
+    answer: 1,
 },
 {
     id:65,
@@ -433,7 +433,7 @@ export const questionary =[
 },
 {
     id:66,
-    question: 'what of this cities in Denmark has less Population?',
+    question: 'Which city in Denmark has least Population?',
     choices: [{option:'Copenhagen', id: 1},{option:'Aarhaus', id: 2},{option:'Odense', id: 3},{option:'Alborg', id: 4}],
     answer: 4,
 },
@@ -457,7 +457,7 @@ export const questionary =[
 },
 {
     id:70,
-    question: 'In what team plays Teemu Pukki during the season 2021/2022?',
+    question: 'In what team did Teemu Pukki play during the season 2021/2022?',
     choices: [{option:'Tottenham', id: 1},{option:'Norwich', id: 2},{option:'Watford', id: 3},{option:'Blackburn', id: 4}],
     answer: 2,
 },
@@ -469,7 +469,7 @@ export const questionary =[
 },
 {
     id:72,
-    question: 'When did Princess Barack Obama born?',
+    question: 'When was Barack Obama born?',
     choices: [{option:'1961', id: 1},{option:'1963', id: 2},{option:'1995', id: 3},{option:'1997', id: 4}],
     answer: 1,
 },
@@ -493,13 +493,13 @@ export const questionary =[
 },
 {
     id:76,
-    question: 'When did J.K.Rowling born?',
+    question: 'When was J.K.Rowling born?',
     choices: [{option:'1950', id: 1},{option:'1955', id: 2},{option:'1960', id: 3},{option:'1965', id: 4}],
     answer: 4,
 },
 {
     id:77,
-    question: 'When was first released the video game console Playstation 4?',
+    question: 'When was Playstation 4 released?',
     choices: [{option:'2011', id: 1},{option:'2012', id: 2},{option:'2013', id: 3},{option:'2014', id: 4}],
     answer: 3,
 },
@@ -517,13 +517,13 @@ export const questionary =[
 },
 {
     id:80,
-    question: 'Who plays Hermione Granger in Harry potter movies?',
+    question: 'Who plays Hermione Granger in Harry Potter movies?',
     choices: [{option:'Emma Watson', id: 1},{option:'Naomi Scott', id: 2},{option:'Sophie Turner', id: 3},{option:'Maya Hawke', id: 4}],
     answer: 1,
 },
 {
     id:81,
-    question: 'Where did Cristiano Ronaldo born?',
+    question: 'Where was Cristiano Ronaldo born?',
     choices: [{option:'Lisbon', id: 1},{option:'Leiria', id: 2},{option:'Funchal', id: 3},{option:'Porto', id: 4}],
     answer: 3,
 },
@@ -541,7 +541,7 @@ export const questionary =[
 },
 {
     id:84,
-    question: 'In what nordic country you can visit the city of Rovaniemi?',
+    question: 'In what nordic country can you visit the city of Rovaniemi?',
     choices: [{option:'Norway', id: 1},{option:'Sweden', id: 2},{option:'Iceland', id: 3},{option:'Finland', id: 4}],
     answer: 4,
 },
@@ -553,43 +553,43 @@ export const questionary =[
 },
 {
     id:86,
-    question: 'Who directed the movie "Belle and the Beast"?',
+    question: 'Who directed the movie "Beauty and the Beast"?',
     choices: [{option:'Jack Kinney', id: 1},{option:'Bill Condon', id: 2},{option:'Wilfred Jackson', id: 3},{option:'Samuel Armstrong', id: 4}],
     answer: 2,
 },
 {
     id:87,
-    question: 'When was launched the original movie "Pocahontas" ?',
+    question: 'When was the original movie "Pocahontas" released?',
     choices: [{option:'1985', id: 1},{option:'1990', id: 2},{option:'1995', id: 3},{option:'2000', id: 4}],
     answer: 3,
 },
 {
     id:88,
-    question: 'When was launched the movie "Pianist" ?',
+    question: 'When was the movie "Pianist" released?',
     choices: [{option:'1999', id: 1},{option:'2001', id: 2},{option:'2003', id: 3},{option:'2005', id: 4}],
     answer: 3,
 },
 {
     id:89,
-    question: 'When was launched the movie "Titanic" ?',
+    question: 'When was the movie "Titanic" released?',
     choices: [{option:'1992', id: 1},{option:'1994', id: 2},{option:'1996', id: 3},{option:'1998', id: 4}],
     answer: 4,
 },
 {
     id:90,
-    question: 'Who directed the movie "Titanic" ?',
+    question: 'Who directed the movie "Titanic"?',
     choices: [{option:'James Cameron', id: 1},{option:'Tim Burton', id: 2},{option:'Spike Lee', id: 3},{option:'Oliver Stone', id: 4}],
     answer: 1,
 },
 {
     id:91,
-    question: 'Who played James Bond in "No time to Die" ?',
+    question: 'Who played James Bond in "No time to Die"?',
     choices: [{option:'Roger Moore', id: 1},{option:'David Niven', id: 2},{option:'Daniel Craig', id: 3},{option:'Pierce Brosnan', id: 4}],
     answer: 3,
 },
 {
     id:92,
-    question: 'When was released the James Bond movie "Tomorrow never dies"?',
+    question: 'When was the James Bond movie "Tomorrow never dies" released ?',
     choices: [{option:'1996', id: 1},{option:'1997', id: 2},{option:'1998', id: 3},{option:'1999', id: 4}],
     answer: 2,
 },
@@ -613,13 +613,13 @@ export const questionary =[
 },
 {
     id:96,
-    question: 'What country is landlocked by only one country?',
+    question: 'What country is landlocked by only one other country?',
     choices: [{option:'Lesotho', id: 1},{option:'Andorra', id: 2},{option:'Moldova', id: 3},{option:'Nepal', id: 4}],
     answer: 1,
 },
 {
     id:97,
-    question: 'Where in Argentina born Lionel Messi?',
+    question: 'Where in Argentina was Lionel Messi born?',
     choices: [{option:'Buenos Aires', id: 1},{option:'Rosario', id: 2},{option:'La Plata', id: 3},{option:'San Luis', id: 4}],
     answer: 2,
 },
@@ -631,7 +631,7 @@ export const questionary =[
 },
 {
     id:99,
-    question: 'Who made part of the band "Pink Floyd"?',
+    question: 'Who was a member of the band "Pink Floyd"?',
     choices: [{option:'Axel Rose', id: 1},{option:'Slash', id: 2},{option:'Brian May', id: 3},{option:'David Gilmour', id: 4}],
     answer: 4,
 },
