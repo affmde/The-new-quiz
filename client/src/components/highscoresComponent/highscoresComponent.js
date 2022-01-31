@@ -17,7 +17,6 @@ export const Highscores = () =>{
         Axios.get("/getTop5Highscores").then(resp=>{
             if(cancel)return;
             setHighScores(resp.data)
-            console.log(resp.data)
         })
         return () => { 
             cancel = true;

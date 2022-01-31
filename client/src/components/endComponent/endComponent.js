@@ -11,7 +11,6 @@ export const EndComponent = ({username, setUsername, score, setScore}) =>{
             username: username,
             score: score
         }).then(resp=> {
-            alert("saved succeesfuly!");
             navigate("/highscores")
         })
     }

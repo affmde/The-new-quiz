@@ -49,7 +49,7 @@
 }
 
 .question{
-   font-size: 2rem;
+   font-size: 3vh;
    margin-bottom: 10px;
 }
 
@@ -64,7 +64,7 @@
     background-color:darkcyan;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-    font-size: 1.8rem;
+    font-size: 4vh;
     margin-top: -30px;
     cursor: pointer;
     padding: 8px 10px;
@@ -78,3 +78,7 @@
     background-color: blue;
 }
 
+#question-number{
+    font-size: 1.1rem;
+    font-weight: 500;
+}

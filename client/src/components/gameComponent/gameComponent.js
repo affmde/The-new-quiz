@@ -29,7 +29,6 @@ export const GameComponent = ({username, setUsername, score, setScore})=>{
 
       useEffect(()=>{
         shuffleArray(randomQuestions);
-        console.log(randomQuestions)
         setQuestionIndex(0);
     },[])
       
@@ -38,7 +37,6 @@ export const GameComponent = ({username, setUsername, score, setScore})=>{
             navigate("/end")
         }
         setAnsweredQuestions([...answeredQuestions, randomQuestions[questionIndex].id])
-        console.log(randomQuestions)
         setTotalQuestions(totalQuestions+1);
 
         //control the score
@@ -79,7 +77,7 @@ export const GameComponent = ({username, setUsername, score, setScore})=>{
                         <p id="score-value">{score}</p>
                     </div>
                     <div className='right'>
-                        <p><strong>Question number:</strong>   {totalQuestions}</p>
+                        <p id="question-number"><strong>Question number:</strong>   {totalQuestions} of 15</p>
                         <p><strong>Right questions:</strong>   {correctAnswers}</p>
                         <p><strong>Wrong answers:</strong>   {wrongAnswers} </p>
                     </div>
