@@ -791,4 +791,34 @@ export const questionary =[
     choices: [{option:'1970', id: 1},{option:'1975', id: 2},{option:'1980', id: 3},{option:'1985', id: 4}],
     answer: 2,
 },
+{
+    id:126,
+    question: 'Where is HJK football club from?',
+    choices: [{option:'Russia', id: 1},{option:'Sweden', id: 2},{option:'Finland', id: 3},{option:'Iceland', id: 4}],
+    answer: 3,
+},
+{
+    id:127,
+    question: 'What is the most used search engine?',
+    choices: [{option:'Bing', id: 1},{option:'Google', id: 2},{option:'AOL', id: 3},{option:'Yahoo', id: 4}],
+    answer: 2,
+},
+{
+    id:128,
+    question: 'Who is facebook founder?',
+    choices: [{option:'John Textor', id: 1},{option:'Steve Jobs', id: 2},{option:'Bill Gates', id: 3},{option:'Mark Zuckerberg', id: 4}],
+    answer: 4,
+},
+{
+    id:129,
+    question: 'What is the official language in Sweden?',
+    choices: [{option:'English', id: 1},{option:'Swedish', id: 2},{option:'German', id: 3},{option:'Spanish', id: 4}],
+    answer: 2,
+},
+{
+    id:130,
+    question: 'How many teams competed in 2021 Formula 1 championship?',
+    choices: [{option:'6', id: 1},{option:'7', id: 2},{option:'8', id: 3},{option:'9', id: 4}],
+    answer: 4,
+},
 ]
